@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+
+1. Crea un archivo HTML nuevo en tu editor de texto, genera la estructura básica
+de un documento HTML. Guarda el archivo en tu computadora con el nombre
+index.html.
+2. La página deberá tener contar, dentro de la etiqueta <title> con el título que
+desees, ejemplo: Sitio web de lindos perritos bebé.
+3. Dentro del <body> incluye la etiqueta <nav> para crear una barra de
+navegación, con 3 enlaces ( <a>) que lleven a:
+    a. Facebook
+    b. Instagram
+    c. Twitter
+4. Dentro de la misma etiqueta <nav> genera los siguientes enlaces
+    a. Acerca de mí
+    b. Productos
+    c. Registro
+    d. Carga de productos
+    e. Contacto
+Los enlaces anteriores deberán llevar a otro documento HTML creado por ti.
+Para hacer esto, escribe el nombre del archivo html al que te quieras dirigir
+dentro del atributo href=. Por ejemplo, si creas un documento sobre-mi.html y
+quieres vincularla con el documento index.html, deberías ponerlo así: <a
+href="sobre-mi.html">Acerca de mí</a>. Ten presente que ambos archivos
+deben estar en la misma carpeta.
+5. Usa por lo menos tres tipos diferentes de titulares (h1, h2, h3, h4, h5, h6) para
+diferenciar distintas partes de tu contenido.
+6. Crea una lista ordenada (cada ítem deberá tener un número) usando la etiqueta
+<ol> y una lista desordenada (cada ítem deberá tener un bullet) usando la
+etiqueta <ul>
+7. Usa algunas etiquetas de tipo <em> y <strong> para destacar partes del texto
+8. Usa una etiqueta <mark> para resaltar algunas partes del texto
+9. Usa algunas etiquetas de tipo <br> y <hr>
+10. Incluye algunas imágenes que quieras. Recuerda que las imágenes deberán
+estar en la misma carpeta donde tienes los archivos HTML, en una subcarpeta
+llamada imgs.
+a. Para insertar una imagen recuerda usar la etiqueta <img src=""alt="">
+    -->
+    
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP1 BA CODING SCHOOL</title>
+</head>
+<header>
+    <img src="/imgs/banner.jpg"  width="100%"  height="300" alt="Banner">
+</header>
+<body>
+    <nav>
+        <div style="text-align:right">
+        <a href="https://www.facebook.com/" title="Facebook"> <img src="/imgs/face.png" height="50" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" title="Instagram"> <img src="/imgs/inst.png" height="50" alt="Instagra"></a>
+        <a href="https://www.twitter.com/" title="Twitter"> <img src="/imgs/tw.png" height="50" alt="Twitter"></a>
+    </div>
+        <br>
+        <div style="text-align:center;">
+        <a href="products.html">Productos</a>
+        <a href="register.html">Registro</a>
+        <a href="loadprod.html">Cargar productos</a>
+        <a href="about.html">Acerca de mi</a>
+        <a href="contact.html">Contacto</a>
+    </div>
+    </nav>
+
+    <h1 style="text-align:center">Lorem ipsum</h1>
+    <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipiscing elit. Phasellus blandit ipsum a dolor finibus sodales. Aliquam eget dolor nec ligula egestas aliquam eu eget odio. Mauris et augue orci. Proin aliquet lacinia lacinia. In tempus faucibus tellus, at ultricies leo viverra mattis. Ut tincidunt, erat ut pharetra rutrum, augue augue pulvinar tortor, nec ultricies ipsum nunc vitae massa. Nunc rhoncus elit et dignissim facilisis. Duis vulputate ligula vel ultricies tristique. Sed eget sollicitudin orci, ac mattis nisi. Pellentesque aliquet ullamcorper ligula, ac consectetur velit. Aenean nec purus sollicitudin lacus hendrerit convallis ut at nibh.
+    </p>
+    <br>
+    <p>Proin <em> sit amet feugiat orci</em>, eu imperdiet ligula. Praesent eu enim a tellus rhoncus ullamcorper quis id ipsum. Donec eu velit ut magna ultrices viverra id eu leo. Donec sit amet libero vel dui lacinia convallis vitae ut tellus. Suspendisse convallis diam sem, sit amet tempus turpis volutpat vel. Sed malesuada dui ut purus facilisis, venenatis feugiat est vestibulum. Curabitur cursus velit sed leo gravida consectetur non in libero. Integer molestie vulputate libero ac pharetra. Mauris mollis felis sit amet varius ultricies. Suspendisse potenti. Morbi finibus aliquam felis, id pretium dolor feugiat nec. Etiam maximus cursus cursus.</p>
+    <br>
+    <p>Sed nec malesuada nibh, sed <strong>porta</strong> arcu. <em>Sed vitae metus ut ante tincidunt gravida at in felis</em>. Maecenas imperdiet est id nisl aliquam viverra. Praesent scelerisque, orci ut imperdiet maximus, augue sapien vestibulum purus, ut finibus augue lorem ac augue. Cras non volutpat felis, nec mollis nisl. Nulla id orci accumsan, molestie lacus sed, interdum nunc. Ut nec iaculis arcu. Maecenas venenatis dolor vel rhoncus vehicula. Proin sit amet purus hendrerit, posuere tortor sed, sollicitudin enim. Cras in magna tellus. Sed bibendum malesuada est, sed condimentum eros consequat commodo. Pellentesque accumsan eros eget arcu porttitor, ut varius lectus pulvinar. Nunc tincidunt est eu nibh facilisis, ut interdum est mattis.</p>
+    <br>
+    <hr>
+    <div style="text-align:center">
+    <img  width="300" height="200" src="/imgs/products/interior.jpg" alt="Interior">
+    <img  width="300" height="200" src="/imgs/products/exterior.jpg" alt="Exterior">
+    <img  width="300" height="200" src="/imgs/products/deco.jpg" alt="Decoración">
+    <img  width="300" height="200" src="/imgs/products/exotic.webp" alt="Exóticas">
+    </div>
+</body>
+<footer>
+    <h6 style="text-align:center"> Lorem ipsum dolor</h6>
+</footer>
+</html>
